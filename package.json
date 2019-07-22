@@ -17,6 +17,7 @@
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
+    "reactstrap": "^8.0.1",
     "typescript": "3.5.3"
   },
   "scripts": {
@@ -58,13 +59,12 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{js,jsx}": [
-      "eslint",
-      "pretty-quick — staged",
-      "git add"
-    ],
     "src/**/*.{js,jsx,tsx}": [
       "pretty-quick — staged"
+    ],
+    "src/**/*.{js,jsx}": [
+      "eslint",
+      "git add"
     ]
   }
 }
